@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Roboto:400,700');
+
+
+body{
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  width: 960px;
+  padding: 5px;
+
+}
+
+a{
+  color: blue;
+}
+
+a:visited{
+  color: purple;
+}
+
+a:active{
+  color: red;
+}
+
+a:hover{
+  color: green;
+}
+
+header{
+  border: 2px solid #222;
+  border-style: solid;
+  padding: 2px;
+  position: relative;
+  height: 250px;
+}
+
+img{
+  border: 2px solid #222;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+
+}
+
+p{
+  padding-left: 4px;
+}
+
+body h1 h2{
+  font-size: 24px;
+  font-family: "Francious One", sans-serif;
+  font-weight: 700;
+}
+
+nav{
+    border: 2px solid #222;
+    border-style: solid;
+    z-index: 10;
+}
+
+article{
+  border: 2px solid #222;
+  border-style: solid;
+  padding-left: 6px;
+  position:relative;
+}
+
+#date{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 18px 8px 0px 0px;
+  font-style: italic;
+}
