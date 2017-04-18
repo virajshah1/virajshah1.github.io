@@ -3,7 +3,6 @@
 /*this puts the background color */
 body{
 background-color: #6d3136;
-  /*#e8edf2*/
 }
 
 #container{
@@ -69,16 +68,11 @@ h2{
   margin: 12px 5px;
 }
 
-
-
 /* This is code to add images as bullets and access specific hrefs
 a[href*="facebook"]{
   background-image: url("etc");
 }
 */
-
-
-
 nav{
     border: 1px solid #222;
     border-left: 0;
@@ -103,12 +97,7 @@ nav li{
 nav a{
   text-decoration: none;
   padding: 10px;
-
   border-radius: 5px;
-}
-
-nav a:hover{
-  /*text-decoration: underline*/
 }
 
 nav li:after{

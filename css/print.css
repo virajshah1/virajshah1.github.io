@@ -1,1 +1,41 @@
+* {
+  background: transparent !important;
+  color: black;
+  font-family: serif;
+  font-size: 11pt;
+}
 
+img{
+  display: none;
+}
+
+
+nav{
+  display: none;
+
+}
+article{
+  border: 1pt solid #222;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  padding-left: 0.2in;
+  padding-bottom: 0.2in;
+  position:relative;
+  margin: 0.2in 0 0.2in 0;
+}
+
+header{
+  padding: 0.2in;
+  position: relative;
+  height: 250px;
+}
+
+img{
+  border: 1px solid #222;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+}
