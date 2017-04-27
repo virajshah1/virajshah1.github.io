@@ -115,14 +115,14 @@ article{
   border-style: solid;
   padding-left: 6px;
   padding-bottom: 10px;
-  position:relative;
+  position: relative;
   margin: 1px 0 1px 0;
 }
 
-#date{
+.date{
   position: absolute;
   top: 0;
   right: 0;
-  padding: 18px 10px 0px 0px;
+  /*padding: 18px 10px 0px 0px;*/
   font-style: italic;
 }
