@@ -5,30 +5,62 @@
   font-size: 11pt;
 }
 
+@page{
+  margin: 0.5in;
+}
+
 img{
   display: none;
+  position: relative;
 }
 
 
 nav{
   display: none;
+  z-index: -2;
 
+}
+
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+h2{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #22313F;
+}
+
+h3{
+  margin: 5px 0 2px 2px;
+  margin-left: 0;
+}
+
+p{
+  margin: 5px 0 5px 0;
 }
 article{
-  border: 1pt solid #222;
-  border-left: 0;
-  border-right: 0;
-  border-style: solid;
-  padding-left: 0.2in;
-  padding-bottom: 0.2in;
+
   position:relative;
-  margin: 0.2in 0 0.2in 0;
+
 }
 
-header{
-  padding: 0.2in;
-  position: relative;
-  height: 250px;
+.date{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  /*padding: 18px 10px 0px 0px;*/
+  font-style: italic;
+}
+
+section{
+  border: 2px dotted #222;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
 }
 
 img{

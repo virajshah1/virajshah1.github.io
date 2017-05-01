@@ -1,3 +1,5 @@
+
+
 @import @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700,700i|Raleway:400,800');
 /*All pages*/
 .nav{
@@ -8,6 +10,10 @@
 
 
 
+#mobile {
+  display: none;
+}
+
 /*Index.html*/
 /*tag for H1*/
 #index{
@@ -17,25 +23,31 @@ font-size: 128px;
 
 }
 /*tag for link*/
-#enter{
+.entrance{
   display: block;
   border: 1px solid black;
   padding: 20px;
   width: 200px;
   margin: 0 auto;
   text-align: center;
+  transition: background 1s ease-in;
+}
+
+.entrance:hover{
+  background: gray;
+  transition: background 1s ease-in;
 }
 
 .entrance{
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 24px;
 }
 
 body{
   /*background-color: #d4e0f7;*/
-    background: url("../img/background.jpg") no-repeat;
-    background-size: cover;
+    background: url("../img/gradient_squares.png") repeat;
+
 }
 #container1{
   font-size: 16px;
@@ -47,11 +59,6 @@ body{
   margin: 0 auto;
 }
 
-
-
-
-
-
 #container{
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -62,13 +69,35 @@ body{
   margin: 0 auto;
 }
 
+
 h1{
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
 }
 
+h2{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #22313F;
+}
+
+h3{
+
+  margin: 5px 0 15px 2px;
+  margin-left: 0;
+}
+
+p{
+  margin: 5px 0 5px 0;
+}
+
+.blog{
+  margin-bottom: 10px;
+}
+
 a{
   text-decoration: none;
+  transition: scale(1);
 
 }
 
@@ -89,7 +118,6 @@ header{
 }
 
 nav{
-
   padding: 10px;
   position: fixed;
   top: 0;
@@ -100,7 +128,6 @@ nav{
 }
 
 nav ul{
-
   margin: 0;
   list-style: none;
   padding-left: 0;
@@ -111,21 +138,36 @@ nav ul{
   color: #3498DB;
 }
 
+nav li:first-child{
+  border-right: 1px solid white;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+
+
 nav li{
   display: inline-block;
   margin-right: 20px;
 }
 
+
 article{
-  border: 1px solid #222;
-  border-left: 0px;
-  border-right: 0px;
-  border-top: 0px;
-  border-style: solid;
-  padding-left: 6px;
+
+  padding-left: 0px;
   padding-bottom: 10px;
   position: relative;
   margin: 1px 0 1px 0;
+}
+
+#shadowing-and-medical-experiences{
+  border-bottom: 0;
+}
+
+section{
+  border: 2px dotted #222;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
 }
 
 .date{
@@ -137,6 +179,18 @@ article{
   font-style: italic;
 }
 
+.zoom{
+  transform: scale(1);
+  position: relative;
+  transition: all 0.25s ease-in;
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+  z-index: 10;
+  transition: all 0.25s ease-in;
+
+}
 
 #resume{
   padding: 2px;
