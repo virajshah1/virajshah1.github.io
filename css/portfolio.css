@@ -52,6 +52,33 @@ nav li{
   margin-right: 20px;
 }
 
+.home{
+color: #47c1ff;
+}
+
+/*a[href] {
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.right{
+  float:right;
+}
+
+
+
+a[href*="facebook"] {
+  color: white;
+  background-image: url("../img/FB-logo.jpg");
+  padding-left: 20px;
+}
+
+a[href*="instagram"] {
+  color: white;
+  padding-left: 20px;
+  background-image: url("../img/instagram.png");
+}*/
+
 /*makes nav elements pop when highlighted*/
 .zoom{
   transform: scale(1);
